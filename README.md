@@ -45,7 +45,7 @@ pip install pillow
 pip install sklearn
 pip install matplotlib
 ~~~
-### Установка для файла ...
+### Установка для файла proverka.py
 Выполните
 ~~~
 pip install opencv-python
@@ -57,5 +57,15 @@ pip install pillow
 pip install sklearn
 pip install matplotlib
 ~~~
+### Установка Frontend части
+Переместить папку weather_app — копия по пути:
+C:\Users\[Пользователь]\PycharmProjects\
+ в PyCharm терминале выполнить это для запуска сервера
 C:\Users\[Пользователь]\PycharmProjects\weather_app — копия\weather_app\django_weather_app>python manage.py runserver
 
+### Для файла views.py
+Выполните
+~~~
+pip install requests
+pip install pillow
+~~~
